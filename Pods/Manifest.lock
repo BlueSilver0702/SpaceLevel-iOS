@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - EAIntroView (2.7.0):
+    - EARestrictedScrollView (~> 0.1.0)
+  - EARestrictedScrollView (0.1.0)
+  - iOS-Slide-Menu (1.4.6)
+  - JDFPeekaboo (0.2)
+  - MBProgressHUD (0.9.1)
+  - PayPal-iOS-SDK (2.10.1)
+  - SMPageControl (1.2)
+  - TPKeyboardAvoiding (1.2.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - EAIntroView
+  - iOS-Slide-Menu
+  - JDFPeekaboo
+  - MBProgressHUD
+  - PayPal-iOS-SDK
+  - SMPageControl
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  EAIntroView: 9becdb1441712405346a3e6bc31b0d9a57b63b10
+  EARestrictedScrollView: 5ab3eadd9ea55282cc72df0daecb09803059e3a0
+  iOS-Slide-Menu: 3a8b157f87694fce888899f169e05b433575ff90
+  JDFPeekaboo: 3447593f899d32c2013422f9bdc23d9d92c75da0
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  PayPal-iOS-SDK: b7143e1e3ce51a82833c50bdac696a7a40852684
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  TPKeyboardAvoiding: ee4dd35e3bb7bb64bfbda47e7cc9ba872ff10f77
+
+COCOAPODS: 0.35.0

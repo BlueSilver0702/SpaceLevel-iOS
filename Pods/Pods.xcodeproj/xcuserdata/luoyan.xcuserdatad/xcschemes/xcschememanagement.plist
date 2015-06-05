@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Online Book-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-EAIntroView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-EARestrictedScrollView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-JDFPeekaboo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-PayPal-iOS-SDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-SMPageControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book-iOS-Slide-Menu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Online Book.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>160E4D0204ACA6EAAD5683AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2754FA9865DD9722B718507E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>287423A2F6476D0FD6CED29F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CFEA88C24B1DB218706180B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ADEC1886B69AE68D2E5DFF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81F57A9DE006098CF6C35948</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A638BF684BC33F94A31B45D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E21E2B0C43327D0120DD5674</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFFD1E9CED90D79519DBE901</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9090A192BD82888CEABB538</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
