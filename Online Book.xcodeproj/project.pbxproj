@@ -208,6 +208,25 @@
 		A7BEF47B1AEC1AC60066B449 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEF47A1AEC1AC60066B449 /* LocationViewController.m */; };
 		A7BEF47E1AEC1AEE0066B449 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEF47D1AEC1AEE0066B449 /* DetailViewController.m */; };
 		A7BEF4811AEC1B040066B449 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7BEF4801AEC1B040066B449 /* FilterViewController.m */; };
+		A7E285361B4C24CE00D062F2 /* about-urbana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E2852D1B4C24CE00D062F2 /* about-urbana.jpg */; };
+		A7E285371B4C24CE00D062F2 /* gal-ozoneurbana1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E2852F1B4C24CE00D062F2 /* gal-ozoneurbana1.jpg */; };
+		A7E285381B4C24CE00D062F2 /* gal-ozoneurbana2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285301B4C24CE00D062F2 /* gal-ozoneurbana2.jpg */; };
+		A7E285391B4C24CE00D062F2 /* gal-ozoneurbana3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285311B4C24CE00D062F2 /* gal-ozoneurbana3.jpg */; };
+		A7E2853A1B4C24CE00D062F2 /* gal-ozoneurbana4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285321B4C24CE00D062F2 /* gal-ozoneurbana4.jpg */; };
+		A7E2853B1B4C24CE00D062F2 /* gal-ozoneurbana5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285331B4C24CE00D062F2 /* gal-ozoneurbana5.jpg */; };
+		A7E2853C1B4C24CE00D062F2 /* slider-new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285341B4C24CE00D062F2 /* slider-new.jpg */; };
+		A7E2853D1B4C24CE00D062F2 /* urbana-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E285351B4C24CE00D062F2 /* urbana-logo.png */; };
+		A7E285491B4C28CD00D062F2 /* floor-ozoneurbana1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E2853F1B4C28CD00D062F2 /* floor-ozoneurbana1.jpg */; };
+		A7E2854A1B4C28CD00D062F2 /* floor-ozoneurbana10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285401B4C28CD00D062F2 /* floor-ozoneurbana10.jpg */; };
+		A7E2854B1B4C28CD00D062F2 /* floor-ozoneurbana2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285411B4C28CD00D062F2 /* floor-ozoneurbana2.jpg */; };
+		A7E2854C1B4C28CD00D062F2 /* floor-ozoneurbana3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285421B4C28CD00D062F2 /* floor-ozoneurbana3.jpg */; };
+		A7E2854D1B4C28CD00D062F2 /* floor-ozoneurbana4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285431B4C28CD00D062F2 /* floor-ozoneurbana4.jpg */; };
+		A7E2854E1B4C28CD00D062F2 /* floor-ozoneurbana5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285441B4C28CD00D062F2 /* floor-ozoneurbana5.jpg */; };
+		A7E2854F1B4C28CD00D062F2 /* floor-ozoneurbana6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285451B4C28CD00D062F2 /* floor-ozoneurbana6.jpg */; };
+		A7E285501B4C28CD00D062F2 /* floor-ozoneurbana7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285461B4C28CD00D062F2 /* floor-ozoneurbana7.jpg */; };
+		A7E285511B4C28CD00D062F2 /* floor-ozoneurbana8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285471B4C28CD00D062F2 /* floor-ozoneurbana8.jpg */; };
+		A7E285521B4C28CD00D062F2 /* floor-ozoneurbana9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7E285481B4C28CD00D062F2 /* floor-ozoneurbana9.jpg */; };
+		A7E285551B4C2B1E00D062F2 /* Data.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E285541B4C2B1E00D062F2 /* Data.m */; };
 		A7E741351AFCF539007BE59E /* courtyard-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7E741341AFCF539007BE59E /* courtyard-logo.png */; };
 		D1AE71FA6B99BD6DA04A0381 /* libPods-Online Book.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1411B5365C46B1BBE35C5285 /* libPods-Online Book.a */; };
 /* End PBXBuildFile section */
@@ -464,6 +483,26 @@
 		A7BEF47D1AEC1AEE0066B449 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = Control/DetailViewController.m; sourceTree = "<group>"; };
 		A7BEF47F1AEC1B040066B449 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterViewController.h; path = Control/FilterViewController.h; sourceTree = "<group>"; };
 		A7BEF4801AEC1B040066B449 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilterViewController.m; path = Control/FilterViewController.m; sourceTree = "<group>"; };
+		A7E2852D1B4C24CE00D062F2 /* about-urbana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "about-urbana.jpg"; sourceTree = "<group>"; };
+		A7E2852F1B4C24CE00D062F2 /* gal-ozoneurbana1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gal-ozoneurbana1.jpg"; sourceTree = "<group>"; };
+		A7E285301B4C24CE00D062F2 /* gal-ozoneurbana2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gal-ozoneurbana2.jpg"; sourceTree = "<group>"; };
+		A7E285311B4C24CE00D062F2 /* gal-ozoneurbana3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gal-ozoneurbana3.jpg"; sourceTree = "<group>"; };
+		A7E285321B4C24CE00D062F2 /* gal-ozoneurbana4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gal-ozoneurbana4.jpg"; sourceTree = "<group>"; };
+		A7E285331B4C24CE00D062F2 /* gal-ozoneurbana5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gal-ozoneurbana5.jpg"; sourceTree = "<group>"; };
+		A7E285341B4C24CE00D062F2 /* slider-new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "slider-new.jpg"; sourceTree = "<group>"; };
+		A7E285351B4C24CE00D062F2 /* urbana-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "urbana-logo.png"; sourceTree = "<group>"; };
+		A7E2853F1B4C28CD00D062F2 /* floor-ozoneurbana1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana1.jpg"; sourceTree = "<group>"; };
+		A7E285401B4C28CD00D062F2 /* floor-ozoneurbana10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana10.jpg"; sourceTree = "<group>"; };
+		A7E285411B4C28CD00D062F2 /* floor-ozoneurbana2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana2.jpg"; sourceTree = "<group>"; };
+		A7E285421B4C28CD00D062F2 /* floor-ozoneurbana3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana3.jpg"; sourceTree = "<group>"; };
+		A7E285431B4C28CD00D062F2 /* floor-ozoneurbana4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana4.jpg"; sourceTree = "<group>"; };
+		A7E285441B4C28CD00D062F2 /* floor-ozoneurbana5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana5.jpg"; sourceTree = "<group>"; };
+		A7E285451B4C28CD00D062F2 /* floor-ozoneurbana6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana6.jpg"; sourceTree = "<group>"; };
+		A7E285461B4C28CD00D062F2 /* floor-ozoneurbana7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana7.jpg"; sourceTree = "<group>"; };
+		A7E285471B4C28CD00D062F2 /* floor-ozoneurbana8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana8.jpg"; sourceTree = "<group>"; };
+		A7E285481B4C28CD00D062F2 /* floor-ozoneurbana9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "floor-ozoneurbana9.jpg"; sourceTree = "<group>"; };
+		A7E285531B4C2B1E00D062F2 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Data.h; path = Model/Data.h; sourceTree = "<group>"; };
+		A7E285541B4C2B1E00D062F2 /* Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Data.m; path = Model/Data.m; sourceTree = "<group>"; };
 		A7E741341AFCF539007BE59E /* courtyard-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "courtyard-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -785,6 +824,8 @@
 				A7880ED01AF179B800EBED64 /* Project.m */,
 				A7880ED21AF182F900EBED64 /* ListData.h */,
 				A7880ED31AF182F900EBED64 /* ListData.m */,
+				A7E285531B4C2B1E00D062F2 /* Data.h */,
+				A7E285541B4C2B1E00D062F2 /* Data.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -794,6 +835,7 @@
 			children = (
 				A7485CE51AF85C08005E385F /* Old */,
 				A7AC4D8B1AF7F3BE005AD438 /* mantricourt */,
+				A7E2852C1B4C24CE00D062F2 /* ozoneurbana */,
 				A7A767A31AF579BD00AFA76D /* verify */,
 				A7A767661AF49DBD00AFA76D /* Logo */,
 				A7880ED51AF1900500EBED64 /* Listing */,
@@ -968,6 +1010,48 @@
 			name = Listing;
 			sourceTree = "<group>";
 		};
+		A7E2852C1B4C24CE00D062F2 /* ozoneurbana */ = {
+			isa = PBXGroup;
+			children = (
+				A7E2853E1B4C28CD00D062F2 /* floor */,
+				A7E2852D1B4C24CE00D062F2 /* about-urbana.jpg */,
+				A7E2852E1B4C24CE00D062F2 /* gallery */,
+				A7E285341B4C24CE00D062F2 /* slider-new.jpg */,
+				A7E285351B4C24CE00D062F2 /* urbana-logo.png */,
+			);
+			name = ozoneurbana;
+			path = Resources/ozoneurbana;
+			sourceTree = "<group>";
+		};
+		A7E2852E1B4C24CE00D062F2 /* gallery */ = {
+			isa = PBXGroup;
+			children = (
+				A7E2852F1B4C24CE00D062F2 /* gal-ozoneurbana1.jpg */,
+				A7E285301B4C24CE00D062F2 /* gal-ozoneurbana2.jpg */,
+				A7E285311B4C24CE00D062F2 /* gal-ozoneurbana3.jpg */,
+				A7E285321B4C24CE00D062F2 /* gal-ozoneurbana4.jpg */,
+				A7E285331B4C24CE00D062F2 /* gal-ozoneurbana5.jpg */,
+			);
+			path = gallery;
+			sourceTree = "<group>";
+		};
+		A7E2853E1B4C28CD00D062F2 /* floor */ = {
+			isa = PBXGroup;
+			children = (
+				A7E2853F1B4C28CD00D062F2 /* floor-ozoneurbana1.jpg */,
+				A7E285401B4C28CD00D062F2 /* floor-ozoneurbana10.jpg */,
+				A7E285411B4C28CD00D062F2 /* floor-ozoneurbana2.jpg */,
+				A7E285421B4C28CD00D062F2 /* floor-ozoneurbana3.jpg */,
+				A7E285431B4C28CD00D062F2 /* floor-ozoneurbana4.jpg */,
+				A7E285441B4C28CD00D062F2 /* floor-ozoneurbana5.jpg */,
+				A7E285451B4C28CD00D062F2 /* floor-ozoneurbana6.jpg */,
+				A7E285461B4C28CD00D062F2 /* floor-ozoneurbana7.jpg */,
+				A7E285471B4C28CD00D062F2 /* floor-ozoneurbana8.jpg */,
+				A7E285481B4C28CD00D062F2 /* floor-ozoneurbana9.jpg */,
+			);
+			path = floor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1030,6 +1114,7 @@
 			files = (
 				A7A8B7501AEE2CDF000CAD9A /* icon-search1.png in Resources */,
 				A7485D761AF85C08005E385F /* tower-8.jpg in Resources */,
+				A7E2854F1B4C28CD00D062F2 /* floor-ozoneurbana6.jpg in Resources */,
 				A7485D8E1AF85E1D005E385F /* floor_4.jpg in Resources */,
 				A7880EE61AF1900500EBED64 /* list_7.jpg in Resources */,
 				A7485D8C1AF85E1D005E385F /* floor_2.jpg in Resources */,
@@ -1040,6 +1125,7 @@
 				A7485D921AF85E1D005E385F /* floor_8.jpg in Resources */,
 				A7A767811AF4ADE000AFA76D /* mantri-logo.png in Resources */,
 				A7485D481AF85C08005E385F /* ga_10.jpg in Resources */,
+				A7E2854D1B4C28CD00D062F2 /* floor-ozoneurbana4.jpg in Resources */,
 				A7485D551AF85C08005E385F /* ga_22.jpg in Resources */,
 				A7485D751AF85C08005E385F /* tower-7.jpg in Resources */,
 				A7485D4F1AF85C08005E385F /* ga_17.jpg in Resources */,
@@ -1048,8 +1134,11 @@
 				A7485D641AF85C08005E385F /* ga_36.jpg in Resources */,
 				A7485D431AF85C08005E385F /* googlemap.jpg in Resources */,
 				A7880EE51AF1900500EBED64 /* list_6.jpg in Resources */,
+				A7E285391B4C24CE00D062F2 /* gal-ozoneurbana3.jpg in Resources */,
 				A7A767801AF4ADE000AFA76D /* big-logo.png in Resources */,
+				A7E285511B4C28CD00D062F2 /* floor-ozoneurbana8.jpg in Resources */,
 				A7485D7E1AF85C08005E385F /* Twitter-icon.png in Resources */,
+				A7E2853D1B4C24CE00D062F2 /* urbana-logo.png in Resources */,
 				A7A8B7771AEEC839000CAD9A /* btn-twitter.png in Resources */,
 				A7485D781AF85C08005E385F /* aboutus_top.jpg in Resources */,
 				A7A8B7691AEE7AB6000CAD9A /* icon-room.png in Resources */,
@@ -1060,6 +1149,7 @@
 				A7A767841AF4B52C00AFA76D /* bg-0.png in Resources */,
 				A7A8B7391AEDD8E7000CAD9A /* icon-fav.png in Resources */,
 				A7485D6D1AF85C08005E385F /* ga_8.jpg in Resources */,
+				A7E285371B4C24CE00D062F2 /* gal-ozoneurbana1.jpg in Resources */,
 				A7485D3D1AF85C08005E385F /* 5s.jpg in Resources */,
 				A7A8B73D1AEDD8E7000CAD9A /* xin.png in Resources */,
 				A7485D3F1AF85C08005E385F /* 7s.jpg in Resources */,
@@ -1095,6 +1185,7 @@
 				A7AC4D961AF7F3BE005AD438 /* gal_5.jpg in Resources */,
 				A7A8B73B1AEDD8E7000CAD9A /* icon-setting.png in Resources */,
 				A7A8B73C1AEDD8E7000CAD9A /* text-view.png in Resources */,
+				A7E2854B1B4C28CD00D062F2 /* floor-ozoneurbana2.jpg in Resources */,
 				A7485D931AF85E1D005E385F /* floor_9.jpg in Resources */,
 				A7A8B74E1AEE2CDF000CAD9A /* icon-logo1.png in Resources */,
 				A7485D501AF85C08005E385F /* ga_18.jpg in Resources */,
@@ -1106,6 +1197,7 @@
 				A7485D771AF85C08005E385F /* tower-9.jpg in Resources */,
 				A7485D8B1AF85E1D005E385F /* floor_1.jpg in Resources */,
 				A7485D7B1AF85C08005E385F /* Facebook-icon.png in Resources */,
+				A7E2853B1B4C24CE00D062F2 /* gal-ozoneurbana5.jpg in Resources */,
 				A7485D5F1AF85C08005E385F /* ga_31.jpg in Resources */,
 				A7A767821AF4ADE000AFA76D /* tata-logo.png in Resources */,
 				A7A8B76F1AEEB5AF000CAD9A /* icon-verify.png in Resources */,
@@ -1129,6 +1221,7 @@
 				A7485D571AF85C08005E385F /* ga_24.jpg in Resources */,
 				A7485D4E1AF85C08005E385F /* ga_16.jpg in Resources */,
 				A7485D7F1AF85C08005E385F /* logo.png in Resources */,
+				A7E285501B4C28CD00D062F2 /* floor-ozoneurbana7.jpg in Resources */,
 				A7880EE81AF1900500EBED64 /* list_9.jpg in Resources */,
 				A7485D491AF85C08005E385F /* ga_11.jpg in Resources */,
 				A7880EC41AF083DE00EBED64 /* icon-empty.png in Resources */,
@@ -1159,6 +1252,7 @@
 				A7485D4C1AF85C08005E385F /* ga_14.jpg in Resources */,
 				A7485D441AF85C08005E385F /* locationmap.jpg in Resources */,
 				A7AC4D971AF7F3BE005AD438 /* gal_6.jpg in Resources */,
+				A7E285381B4C24CE00D062F2 /* gal-ozoneurbana2.jpg in Resources */,
 				A7485D7C1AF85C08005E385F /* GooglePlus-icon.png in Resources */,
 				A7485D901AF85E1D005E385F /* floor_6.jpg in Resources */,
 				A7A8B7631AEE7351000CAD9A /* icon-share.png in Resources */,
@@ -1168,18 +1262,26 @@
 				A7485D691AF85C08005E385F /* ga_40.jpg in Resources */,
 				A7A7677A1AF4ADBE00AFA76D /* bg-2.png in Resources */,
 				A7485D5C1AF85C08005E385F /* ga_29.jpg in Resources */,
+				A7E285521B4C28CD00D062F2 /* floor-ozoneurbana9.jpg in Resources */,
 				A7A8B7761AEEC839000CAD9A /* btn-facebook.png in Resources */,
 				A7A8B72B1AEDCE07000CAD9A /* icon-exit.png in Resources */,
 				A7A8B7621AEE7351000CAD9A /* icon-location1.png in Resources */,
+				A7E2854A1B4C28CD00D062F2 /* floor-ozoneurbana10.jpg in Resources */,
 				A7485D8F1AF85E1D005E385F /* floor_5.jpg in Resources */,
+				A7E2854C1B4C28CD00D062F2 /* floor-ozoneurbana3.jpg in Resources */,
 				A7485D621AF85C08005E385F /* ga_34.jpg in Resources */,
 				A7A7677C1AF4ADBE00AFA76D /* bg-4.png in Resources */,
 				A7485D471AF85C08005E385F /* ga_1.jpg in Resources */,
 				A7485D451AF85C08005E385F /* sitemapbig.jpg in Resources */,
+				A7E285491B4C28CD00D062F2 /* floor-ozoneurbana1.jpg in Resources */,
+				A7E285361B4C24CE00D062F2 /* about-urbana.jpg in Resources */,
+				A7E2854E1B4C28CD00D062F2 /* floor-ozoneurbana5.jpg in Resources */,
 				A7AC4D921AF7F3BE005AD438 /* gal_1.jpg in Resources */,
 				A7AC4D941AF7F3BE005AD438 /* gal_3.jpg in Resources */,
 				A7A8B7881AEF7E78000CAD9A /* Default.png in Resources */,
 				A7A8B7611AEE7351000CAD9A /* icon-img.png in Resources */,
+				A7E2853C1B4C24CE00D062F2 /* slider-new.jpg in Resources */,
+				A7E2853A1B4C24CE00D062F2 /* gal-ozoneurbana4.jpg in Resources */,
 				A7485D361AF85C08005E385F /* 10s.jpg in Resources */,
 				A7AC4D931AF7F3BE005AD438 /* gal_2.jpg in Resources */,
 				A7880EE41AF1900500EBED64 /* list_5.jpg in Resources */,
@@ -1243,6 +1345,7 @@
 				A7A7679C1AF576B800AFA76D /* VerifyOnline1ViewController.m in Sources */,
 				A7BEF3321AEC12AE0066B449 /* MHFacebookImageViewer.m in Sources */,
 				A7A767931AF5764700AFA76D /* VerifyOffice2ViewController.m in Sources */,
+				A7E285551B4C2B1E00D062F2 /* Data.m in Sources */,
 				A7A7679F1AF576CC00AFA76D /* VerifySuccessViewController.m in Sources */,
 				A7BEF4541AEC17670066B449 /* ListViewController.m in Sources */,
 				A7880EC91AF09B8A00EBED64 /* SearchViewController.m in Sources */,
@@ -1323,7 +1426,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1365,7 +1469,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1390,7 +1495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
 				INFOPLIST_FILE = "Online Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1405,7 +1510,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: NIKULSAN TECHNOLOGIES PRIVATE LIMITED (YJA9M9YZ69)";
 				INFOPLIST_FILE = "Online Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

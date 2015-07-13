@@ -17,7 +17,10 @@
 @property (nonatomic, retain) NSString *p_price;
 @property (nonatomic, retain) NSString *p_location;
 @property (nonatomic, retain) NSString *p_address;
+@property (nonatomic, retain) NSString *p_mapDesc;
 @property (nonatomic, retain) NSString *p_logo;
+@property (nonatomic, retain) NSString *p_title;
+@property (nonatomic, retain) NSString *p_desc;
 
 // location
 @property (nonatomic) double p_lan;

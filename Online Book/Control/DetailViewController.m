@@ -11,6 +11,8 @@
 #import "VerifyViewController.h"
 #import "ConfirmViewController.h"
 #import "LoginViewController.h"
+#import "MHFacebookImageViewer.h"
+#import "UIImageView+MHFacebookImageViewer.h"
 
 @interface DetailViewController () {
     IBOutlet UIView *modalView;
@@ -30,6 +32,12 @@
     IBOutlet UILabel *mapLabel;
     IBOutlet UIView *bottomView;
     IBOutlet UILabel *priceLabel;
+    IBOutlet UIButton *twitterBtn;
+    IBOutlet UIButton *facebookBtn;
+    IBOutlet UIButton *pinterestBtn;
+    IBOutlet UIButton *googleBtn;
+    
+    IBOutlet UIView *scrollContentView;
     
 //    projectInfo.p_address = @"Off Kanakpura";
 //    projectInfo.p_company = @"Mantri";
@@ -57,7 +65,15 @@
 //    priceLabel.text = self.projectInfo.p_price;
     addressLabel.text = [NSString stringWithFormat:@"%@\n%@", self.projectInfo.p_address, self.projectInfo.p_location];
     typeLabel.text = [NSString stringWithFormat:@"%@\nDeveloped by %@", self.projectInfo.p_type, self.projectInfo.p_name];
+    mapLabel.text = self.projectInfo.p_mapDesc;
+    priceLabel.text = self.projectInfo.p_price;
     
+    if ([self.projectInfo.p_facebook isEqualToString:@""]) [facebookBtn setEnabled:NO];
+    if ([self.projectInfo.p_twitter isEqualToString:@""]) [twitterBtn setEnabled:NO];
+    if ([self.projectInfo.p_pinterest isEqualToString:@""]) [pinterestBtn setEnabled:NO];
+    if ([self.projectInfo.p_google isEqualToString:@""]) [googleBtn setEnabled:NO];
+    
+    contactLabel.text = [NSString stringWithFormat:@"- Toll Free: %@ \n- Email id: %@",self.projectInfo.p_phone, self.projectInfo.p_email];
     // Do any additional setup after loading the view.
     UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main"
                                                              bundle: nil];
@@ -67,7 +83,10 @@
     [modalView addSubview:currencyView.view];
     [modalView setHidden:YES];
     
-    [bkScroll setContentSize:CGSizeMake(bkScroll.frame.size.width, 2100)];
+//    [bkScroll setContentSize:CGSizeMake(bkScroll.frame.size.width, 2080)];
+    
+    pageLabel.text = [NSString stringWithFormat:@"1/%ld", self.projectInfo.p_gallery.count];
+    pageFloorLabel.text = [NSString stringWithFormat:@"1/%ld", self.projectInfo.p_plan.count];
     
     NSInteger imageIndex = self.selectedNum + 1;
     for (int i=0; i<self.projectInfo.p_gallery.count; i++) {
@@ -81,8 +100,9 @@
     
     for (int j=0; j<self.projectInfo.p_plan.count; j++) {
         UIImageView *imageViewLeft = [[UIImageView alloc] initWithFrame:CGRectMake(j*floorScroll.frame.size.width, 0, floorScroll.frame.size.width, floorScroll.frame.size.height)];
-        [imageViewLeft setImage:[UIImage imageNamed:[self.projectInfo.p_plan objectAtIndex:j]]];
-        imageViewLeft.clipsToBounds = YES;
+//        [imageViewLeft setImage:[UIImage imageNamed:[self.projectInfo.p_plan objectAtIndex:j]]];
+        [self displayImage:imageViewLeft withImage:[UIImage imageNamed:[self.projectInfo.p_plan objectAtIndex:j]]];
+//        imageViewLeft.clipsToBounds = YES;
         [floorScroll addSubview:imageViewLeft];
     }
     [floorScroll setContentSize:CGSizeMake(self.projectInfo.p_plan.count*floorScroll.frame.size.width, floorScroll.frame.size.height)];
@@ -103,15 +123,27 @@
     region.center.longitude = self.projectInfo.p_lon;
     region.span.latitudeDelta = 0.00725;
     region.span.longitudeDelta = 0.00725;
-    [self.mapView setRegion:region animated:YES];
+    [self.mapView setRegion:region animated:YES];    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    CGSize maximumLabelSize = CGSizeMake(amenitiesLabel.frame.size.width, FLT_MAX);
+    CGSize aboutHeight = [amenitiesLabel.text sizeWithFont:amenitiesLabel.font constrainedToSize:maximumLabelSize lineBreakMode:amenitiesLabel.lineBreakMode];
+    float changeHeight = amenitiesLabel.frame.size.height - aboutHeight.height;
+    amenitiesLabel.frame = CGRectMake(amenitiesLabel.frame.origin.x, amenitiesLabel.frame.origin.y, maximumLabelSize.width, aboutHeight.height);
+//    [amenitiesLabel setBackgroundColor:[UIColor redColor]];
+    bottomView.frame = CGRectMake(bottomView.frame.origin.x, amenitiesLabel.frame.origin.y+amenitiesLabel.frame.size.height+8, bottomView.frame.size.width, bottomView.frame.size.height);
+//    scrollContentView.frame = CGRectMake(scrollContentView.frame.origin.x, scrollContentView.frame.origin.y, scrollContentView.frame.size.width, bottomView.frame.size.height-changeHeight);
+    [bkScroll setContentSize:CGSizeMake(bkScroll.frame.size.width, bottomView.frame.origin.y+bottomView.frame.size.height+20)];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    int page_count = (int)(scrollCtrl.contentOffset.x / scrollCtrl.frame.size.width);
     if (scrollView.tag == 2) {
+        int page_count = (int)(scrollCtrl.contentOffset.x / scrollCtrl.frame.size.width);
         pageLabel.text = [NSString stringWithFormat:@"%d/%ld", page_count+1, self.projectInfo.p_gallery.count];
     } else if (scrollView.tag == 3) {
+        int page_count = (int)(floorScroll.contentOffset.x / floorScroll.frame.size.width);
         pageFloorLabel.text = [NSString stringWithFormat:@"%d/%ld", page_count+1, self.projectInfo.p_plan.count];
     }
     
@@ -143,20 +175,29 @@
         LoginViewController *currencyView = (LoginViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"LoginViewController"];
         [self.navigationController pushViewController:currencyView animated:NO];
     } else {
-        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"Verify"]) {
-            ConfirmViewController *currencyView = (ConfirmViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"ConfirmViewController"];
-            [self.navigationController pushViewController:currencyView animated:NO];
-        } else {
-            VerifyViewController *currencyView = (VerifyViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"VerifyViewController"];
-            [self.navigationController pushViewController:currencyView animated:NO];
-        }
+//        if ([[NSUserDefaults standardUserDefaults] boolForKey:@"Verify"]) {
+//            ConfirmViewController *currencyView = (ConfirmViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"ConfirmViewController"];
+//            [self.navigationController pushViewController:currencyView animated:NO];
+//        } else {
+//            VerifyViewController *currencyView = (VerifyViewController *)[mainStoryboard instantiateViewControllerWithIdentifier: @"VerifyViewController"];
+//            [self.navigationController pushViewController:currencyView animated:NO];
+//        }
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Coming Soon" message:@"SpaceLevel will process your book in the near future." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alertView show];
     }
     
 }
 
-- (IBAction)onContact:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.projectInfo.p_site]];
+- (void) displayImage:(UIImageView*)imageView withImage:(UIImage*)image  {
+    [imageView setImage:image];
+    imageView.contentMode = UIViewContentModeScaleAspectFill;
+    [imageView setupImageViewer];
+    imageView.clipsToBounds = YES;
 }
+
+//- (IBAction)onContact:(id)sender {
+//    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.projectInfo.p_site]];
+//}
 
 - (IBAction)onFacebook:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:self.projectInfo.p_facebook]];

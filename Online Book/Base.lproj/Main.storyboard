@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fwv-3b-hFH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fwv-3b-hFH">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Account Edit View Controller-->
@@ -475,7 +475,7 @@
                                 <rect key="frame" x="0.0" y="70" width="320" height="498"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ca-xG-mge">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2100"/>
+                                        <rect key="frame" x="0.0" y="-700" width="320" height="2060"/>
                                         <subviews>
                                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ga_16.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KVT-Zv-umD">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="187"/>
@@ -493,14 +493,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ai5-gS-h2d">
-                                                <rect key="frame" x="0.0" y="131" width="96" height="33"/>
+                                                <rect key="frame" x="0.0" y="131" width="102" height="33"/>
                                                 <color key="backgroundColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INR 1.16 cr*" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIC-P6-TP5">
-                                                <rect key="frame" x="0.0" y="137" width="97" height="21"/>
+                                                <rect key="frame" x="0.0" y="137" width="102" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -512,41 +512,30 @@
                                                 </state>
                                             </button>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="courtyard-logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="YW9-ih-Hmu">
-                                                <rect key="frame" x="103" y="268" width="116" height="41"/>
+                                                <rect key="frame" x="103" y="276" width="116" height="41"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1d-8c-E2J">
-                                                <rect key="frame" x="88" y="360" width="144" height="33"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
-                                                <state key="normal" title="Contact Company">
-                                                    <color key="titleColor" red="1" green="0.35294117650000001" blue="0.37254901959999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="onContact:" destination="pHm-aU-muS" eventType="touchUpInside" id="sfd-8G-Ece"/>
-                                                </connections>
-                                            </button>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bqv-Uv-fa3">
                                                 <rect key="frame" x="16" y="404" width="288" height="1"/>
                                                 <color key="backgroundColor" red="0.78039215689999997" green="0.78039215689999997" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Project" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aGx-1h-M8y">
-                                                <rect key="frame" x="71" y="432" width="179" height="45"/>
+                                                <rect key="frame" x="71" y="420" width="179" height="45"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-fn-sQg">
-                                                <rect key="frame" x="11" y="631" width="298" height="130"/>
+                                                <rect key="frame" x="11" y="626" width="298" height="172"/>
                                                 <string key="text">Introducing Mantri Courtyard, Row villas with a private green space that fills joy in your life. Get back to a home with a private outdoor space, a space that fills you up with happiness, a space where you can recharge, refresh and rebalance yourself. Find that space at Mantri Courtyard and rediscover the joy of living.</string>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
                                                 <color key="textColor" red="0.49769046532846717" green="0.50538891423357668" blue="0.49084739963503649" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about_img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q7w-Wx-AUa">
-                                                <rect key="frame" x="8" y="507" width="304" height="116"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="about_img.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Q7w-Wx-AUa">
+                                                <rect key="frame" x="8" y="480" width="304" height="144"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1G-sp-jtb">
-                                                <rect key="frame" x="28" y="825" width="265" height="478"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="60" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1G-sp-jtb">
+                                                <rect key="frame" x="28" y="852" width="265" height="653"/>
                                                 <string key="text">Outdoor Amenities
 
 - Swimming pool - multifunctional pool
@@ -580,7 +569,7 @@ Indoor Amenities / Clubhouse
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsW-wV-lKY">
-                                                <rect key="frame" x="31" y="310" width="258" height="51"/>
+                                                <rect key="frame" x="31" y="328" width="258" height="51"/>
                                                 <string key="text">Residential
 Hosted by Mantri Espana</string>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
@@ -588,108 +577,57 @@ Hosted by Mantri Espana</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAH-Uy-jrT">
-                                                <rect key="frame" x="28" y="208" width="265" height="45"/>
+                                                <rect key="frame" x="28" y="210" width="265" height="45"/>
                                                 <string key="text">Radial Road, Pallavaram
 Chennai</string>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Floor Plans" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzI-KC-wHw">
-                                                <rect key="frame" x="70" y="1316" width="179" height="45"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5N-2A-j8t">
-                                                <rect key="frame" x="0.0" y="1367" width="320" height="187"/>
-                                                <connections>
-                                                    <outlet property="delegate" destination="pHm-aU-muS" id="nQR-dd-e8F"/>
-                                                </connections>
-                                            </scrollView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0S-6S-fRM">
-                                                <rect key="frame" x="258" y="1526" width="49" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Specifications" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kh-gx-vvF">
-                                                <rect key="frame" x="70" y="1578" width="179" height="45"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uSh-gJ-saF">
-                                                <rect key="frame" x="0.0" y="1552" width="320" height="500"/>
+                                                <rect key="frame" x="0.0" y="1513" width="320" height="500"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W02-Si-YZL">
-                                                        <rect key="frame" x="27" y="88" width="265" height="49"/>
-                                                        <string key="text">- Toll Free: 1800-121-0000
-- Email id: Enquiry@mantri.in</string>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                                        <color key="textColor" red="0.4976904653" green="0.50538891419999998" blue="0.49084739960000001" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contact Info" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZP-fX-yfV">
-                                                        <rect key="frame" x="70" y="30" width="179" height="45"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Floor Plans" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzI-KC-wHw">
+                                                        <rect key="frame" x="70" y="4" width="179" height="45"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KnI-8d-j8b">
-                                                        <rect key="frame" x="108" y="159" width="45" height="44"/>
-                                                        <state key="normal" image="Twitter-icon.png">
-                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </state>
+                                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R5N-2A-j8t">
+                                                        <rect key="frame" x="0.0" y="51" width="320" height="187"/>
                                                         <connections>
-                                                            <action selector="onTwitter:" destination="pHm-aU-muS" eventType="touchUpInside" id="Lm4-tn-LaT"/>
+                                                            <outlet property="delegate" destination="pHm-aU-muS" id="nQR-dd-e8F"/>
                                                         </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I97-35-lt6">
-                                                        <rect key="frame" x="167" y="159" width="45" height="44"/>
-                                                        <state key="normal" image="GooglePlus-icon.png">
-                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="onGoogle:" destination="pHm-aU-muS" eventType="touchUpInside" id="wWM-OB-Gog"/>
-                                                        </connections>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhC-p9-EM8">
-                                                        <rect key="frame" x="226" y="159" width="45" height="44"/>
-                                                        <state key="normal" image="Pinterest-icon.png">
-                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="onPinterest:" destination="pHm-aU-muS" eventType="touchUpInside" id="XpS-Zm-iQX"/>
-                                                        </connections>
-                                                    </button>
+                                                    </scrollView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1/9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0S-6S-fRM">
+                                                        <rect key="frame" x="252" y="208" width="49" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                        <color key="textColor" red="0.032008127405249075" green="0.44990781130282881" blue="0.8885140467171716" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Specifications" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kh-gx-vvF">
+                                                        <rect key="frame" x="70" y="100" width="179" height="45"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                     <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1JV-FE-dB8">
-                                                        <rect key="frame" x="0.0" y="257" width="320" height="243"/>
+                                                        <rect key="frame" x="0.0" y="240" width="320" height="243"/>
                                                     </mapView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text-view-white.png" translatesAutoresizingMaskIntoConstraints="NO" id="FXZ-v5-as7">
-                                                        <rect key="frame" x="16" y="427" width="288" height="58"/>
+                                                        <rect key="frame" x="16" y="410" width="288" height="58"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Promont Hill, SY No.168, Off Lttamadu Main Road, Hosakerehalli Village, Banashankari Stage III, Bengaluru 560085" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGP-Ny-nAV">
-                                                        <rect key="frame" x="29" y="435" width="262" height="43"/>
+                                                        <rect key="frame" x="29" y="417" width="262" height="43"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1l-pM-7Tm">
-                                                        <rect key="frame" x="49" y="159" width="45" height="44"/>
-                                                        <state key="normal" image="Facebook-icon.png">
-                                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="onFacebook:" destination="pHm-aU-muS" eventType="touchUpInside" id="FRj-IU-kYK"/>
-                                                        </connections>
-                                                    </button>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.8626539689781022" green="0.86225479014598538" blue="0.86271099452554745" alpha="1" colorSpace="calibratedRGB"/>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amenities" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXV-2r-tNm">
-                                                <rect key="frame" x="71" y="779" width="179" height="45"/>
+                                                <rect key="frame" x="71" y="799" width="179" height="45"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -749,7 +687,6 @@ Chennai</string>
                         <outlet property="bkScroll" destination="wSs-5I-JL7" id="dNR-me-ZQY"/>
                         <outlet property="bottomView" destination="uSh-gJ-saF" id="Amy-gg-TTC"/>
                         <outlet property="companyImg" destination="YW9-ih-Hmu" id="zGV-AP-wzc"/>
-                        <outlet property="contactLabel" destination="W02-Si-YZL" id="Xjp-Vw-uFk"/>
                         <outlet property="floorScroll" destination="R5N-2A-j8t" id="HpL-cE-q8k"/>
                         <outlet property="mapLabel" destination="DGP-Ny-nAV" id="9P8-V0-9M4"/>
                         <outlet property="mapView" destination="1JV-FE-dB8" id="OWT-dP-S0d"/>
@@ -758,13 +695,14 @@ Chennai</string>
                         <outlet property="pageLabel" destination="KDB-8r-n5w" id="CfQ-Ye-3m6"/>
                         <outlet property="pageTitle" destination="wQp-cG-YKw" id="658-OQ-dOT"/>
                         <outlet property="priceLabel" destination="lIC-P6-TP5" id="kNF-iH-Ag0"/>
+                        <outlet property="scrollContentView" destination="6ca-xG-mge" id="pZE-Xf-uYK"/>
                         <outlet property="scrollCtrl" destination="GFj-qG-jtt" id="522-vP-Kec"/>
                         <outlet property="typeLabel" destination="NsW-wV-lKY" id="lhc-ei-jn0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H8W-oW-sBz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="522" y="2789"/>
+            <point key="canvasLocation" x="522" y="2778"/>
         </scene>
         <!--Location View Controller-->
         <scene sceneID="xQE-Qr-SVo">
@@ -1076,14 +1014,14 @@ their first stay, and earn $100 when they
                                                     </subviews>
                                                 </scrollView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vYt-QA-0a0">
-                                                    <rect key="frame" x="0.0" y="121" width="96" height="33"/>
+                                                    <rect key="frame" x="0.0" y="121" width="102" height="33"/>
                                                     <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INR 1.16 cr*" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzU-xG-gG3">
-                                                    <rect key="frame" x="0.0" y="128" width="97" height="21"/>
+                                                    <rect key="frame" x="0.0" y="128" width="102" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
@@ -4668,10 +4606,6 @@ You're verified.</string>
         </scene>
     </scenes>
     <resources>
-        <image name="Facebook-icon.png" width="64" height="64"/>
-        <image name="GooglePlus-icon.png" width="64" height="64"/>
-        <image name="Pinterest-icon.png" width="64" height="64"/>
-        <image name="Twitter-icon.png" width="64" height="64"/>
         <image name="about_img.jpg" width="830" height="250"/>
         <image name="add_user.png" width="50" height="50"/>
         <image name="btn-facebook.png" width="518" height="84"/>
